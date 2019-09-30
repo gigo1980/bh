@@ -16,13 +16,13 @@ metadata:
     name: bankingholidays-service
   name: bankingholidays-service
 spec:
-  maxReplicas: 10
+  maxReplicas: 3
   minReplicas: 2
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
     name: bankingholidays-service
-  targetCPUUtilizationPercentage: 50
+  targetCPUUtilizationPercentage: 90
 ---
 kind: Deployment
 apiVersion: extensions/v1beta1
