@@ -1,7 +1,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: bankingholidayss-ingress
+  name: bankingholidays-service
 spec:
   rules:
   - host: bankingholidays.api.dev.cloud.ilab-nlb.de
