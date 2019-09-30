@@ -36,8 +36,6 @@ spec:
         name: bankingholidays-service
     spec:
       hostname: bankingholidays-service
-      imagePullSecrets:
-        - name: github-registry
       containers:
         - name: kyc-gateway
           image: docker.pkg.github.com/nordlb/banking-holidays-service/banking-holidays-service:latest
