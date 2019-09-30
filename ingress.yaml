@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: bankingholidayss-ingress
+spec:
+  rules:
+  - host: bankingholidays.api.dev.cloud.ilab-nlb.de
+    http:
+      paths:
+      - path: /
+        backend:
+          serviceName: bankingholidays-service
+          servicePort: 80

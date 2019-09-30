@@ -1,0 +1,8 @@
+apiVersion: v1
+data:
+  .dockerconfigjson: eyJhdXRocyI6eyJkb2NrZXIucGtnLmdpdGh1Yi5jb20iOnsidXNlcm5hbWUiOiJnaWdvMTk4MCIsInBhc3N3b3JkIjoiYzE3YTkxOTZhZDE1MTZhNmI0MWIyMjI0ZDAxZGMyZWIyZmI4Y2NmNCIsImVtYWlsIjoiZ2lnbzE5ODBAZ21haWwuY29tIiwiYXV0aCI6IloybG5iekU1T0RBNll6RTNZVGt4T1RaaFpERTFNVFpoTm1JME1XSXlNakkwWkRBeFpHTXlaV0l5Wm1JNFkyTm1OQT09In19fQ==
+kind: Secret
+metadata:
+  creationTimestamp: null
+  name: github-registry
+type: kubernetes.io/dockerconfigjson
